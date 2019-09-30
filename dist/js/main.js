@@ -14,7 +14,6 @@ const getUsers = async() => {
         const text = document.createTextNode(user.name);
         li.appendChild(text);
         document.getElementById('users').appendChild(li);
-
     });
 
 };
