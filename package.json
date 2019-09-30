@@ -5,7 +5,10 @@
   "author": "Bruce Taylor",
   "license": "SEE LICENSE IN LICENSE",
   "keywords": [
-    "netlify"
+    "netlify",
+    "netlify-deployment",
+    "practice-project"
+
   ],
   "main": "index.js",
   "scripts": {

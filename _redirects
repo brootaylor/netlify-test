@@ -1,0 +1,2 @@
+/broo https://brootaylor.com/
+/api/* https://jsonplaceholder.typicode.com/:splat 200
