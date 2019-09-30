@@ -1,0 +1,14 @@
+{
+  "name": "netlify-test",
+  "version": "1.0.0",
+  "description": "A config to run some Dev & Deploy tasks using Netlify.",
+  "author": "Bruce Taylor",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "netlify"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
