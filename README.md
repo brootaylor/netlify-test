@@ -6,7 +6,7 @@ Huge amount of learnings taken from other fab developers.
 
 ---
 
-## Steps in setting this demo up
+## Steps in setting this demo up and running
 
 1. Install Netlify CLI, `npm i -g netlify-cli`
    > If you need help then run the `netlify --help` command
@@ -26,3 +26,8 @@ Huge amount of learnings taken from other fab developers.
    3. This can be simplified to access as a redirect instead like this...
       1. Open `_redirects` and add `/getword /.netlify/functions/getword/getword.js`
             > Now it can be accessed at `http://localhost:8888/getword`
+9. Let's make it better, `npm i random-words`
+   1.  Open `getword.js`
+   2.  Import the `ramdom-word` package,
+   3.  Update function to populate date from this JSON object.
+10. Create some `css` and `js` to render the UI a bit better while calling / using the API we proxied into.

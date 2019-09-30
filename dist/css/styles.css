@@ -1,0 +1,35 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#random-word {
+    color: yellow;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 1rem;
+}
+
+li:nth-child(odd) {
+    background-color: thistle;
+}
