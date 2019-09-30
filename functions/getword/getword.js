@@ -7,10 +7,10 @@ async function getWord() {
 
 exports.handler = async (event, context) => {
   try {
-    const subject = (await getWord()) || "Sawubona World";
+    const subject = await getWord();
     return {
       statusCode: 200,
-      body: `${subject}`
+      body: JSON.stringify(`${subject}`)
       // // more keys you can return:
       // headers: { "headerName": "headerValue", ... },
       // isBase64Encoded: true,
