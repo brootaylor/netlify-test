@@ -14,6 +14,6 @@
     "start": "netlify dev"
   },
   "dependencies": {
-    "random-words": "^1.1.0"
+    "random-words": "^1.1.1"
   }
 }
